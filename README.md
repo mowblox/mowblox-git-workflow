@@ -16,7 +16,7 @@ A basic repo to help orient new devs on the mowblox git workflow
 ## 3. Integration and Deployment:
 
 * Merge changes: Once approved, your branch can be merged into the main codebase (often done through the pull request platform). Merging can only be done by a team lead.
-* Local repo cleanup: After PR is merged, the remote branch (head branch) will be deleted. It is your duty to fetch and update `develop` and also delete your working branch whose work is over immediately after the merge.
+* Local repo cleanup: After PR is merged, the remote branch (head branch) will be deleted. It is your duty to fetch and update `develop` and also delete your working branch whose work is over immediately after the merge. Any new task assigned to you needs to go into a newly created branch from `develop` and the cycle continues.
 * Deployment: Depending on the team's setup, automated or manual deployment processes might integrate your changes into the live environment.
 
 ## Additional Tips:
