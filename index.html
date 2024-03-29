@@ -8,8 +8,27 @@
 </head>
 
 <body>
-    <h1>Mowblox Git Workflow</h1>
-    <p>A basic repo to help orient new devs on the mowblox git workflow</p>
+    <header>
+        <h1>Mowblox Git Workflow</h1>
+    </header>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./services.html">Services</a>
+        <a href="./products.html">Products</a>
+    </nav>
+    <section>
+        <p>A basic repo to help orient new devs on the mowblox git workflow</p>
+    </section>
+    <footer>
+        <p>&copy; Copyright <span id="copyright"></span> Mowblox.com</p>
+    </footer>
 </body>
+
+<script>
+    document.getElementById('copyright').innerHTML = new Date().getFullYear();
+</script>
 
 </html>
