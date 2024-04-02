@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Mowblox</title>
+    <style>
+        body {
+            background-color: #e6f0ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #7435c5;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #575656;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 10%;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            width: 100%;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>About Mowblox</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./services.html">Services</a>
+            <a href="./products.html">Products</a>
+        </nav>
+    </header>
+    <div class="content">
+        <p>Welcome to Mowblox!</p>
+    </div>
+    <footer>
+        <p>&copy; Copyright <span id="copyright"></span> Mowblox.com</p>
+    </footer>
+
+    <script>
+        document.getElementById('copyright').innerHTML = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
