@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mowblox Products Page</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>About Mowblox</h1>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./services.html">Services</a>
+        <a href="./products.html">Products</a>
+      </nav>
+    </header>
+    <section class="container">
+      <div class="content">
+        <h2>All Products!</h2>
+      </div>
+      <footer>
+        <p>&copy; Copyright <span id="copyright"></span> Mowblox.com</p>
+      </footer>
+    </section>
+    <script>
+      document.getElementById("copyright").innerHTML = new Date().getFullYear();
+    </script>
+  </body>
+</html>
