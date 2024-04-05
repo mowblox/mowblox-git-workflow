@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mowblox Blog</title>
+
+    <style>
+        body {
+            background-color: wheat;
+            color: rgb(74, 74, 166);;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section {
+            background-color: papayawhip;
+            color: rgb(74, 74, 166);
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mowblox Blog</h1>
+    </header>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./services.html">Services</a>
+        <a href="./products.html">Products</a>
+    </nav>
+    <section class="section">
+        <p>Blog posts go here.</p>
+    </section>
+    <footer>
+        <p>&copy; Copyright <span id="copyright"></span> Mowblox.com</p>
+    </footer>
+</body>
+
+<script>
+    document.getElementById('copyright').innerHTML = new Date().getFullYear();
+</script>
+
+</html>
