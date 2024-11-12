@@ -21,7 +21,7 @@ A basic repo to help orient new devs on the mowblox git workflow
 
 ## Additional Tips:
 
-* Fetch and rebase: Regularly use `git fetch` and `git rebase` to keep your local branch up-to-date with the main codebase.
+* Fetch and merge: Regularly use `git fetch` and `git merge origin/develop` to keep your local branch up-to-date with the main codebase.
 * Resolve conflicts: In case of conflicts during merging, you'll need to manually resolve them using Git tools and commands.
 * Branch naming conventions: Use a consistent naming scheme for your branches (e.g., **feature/my-new-feature**, **bugfix/fix-login-issue**).
 * Documentation: Refer to your team's specific Git documentation or ask senior developers for guidance on any additional workflows or tools used at Mowblox.
